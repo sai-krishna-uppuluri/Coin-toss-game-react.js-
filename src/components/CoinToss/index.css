@@ -1,0 +1,94 @@
+/* Write your CSS here */
+
+.app-container {
+  background-image: linear-gradient(#f9d423, #e2a139);
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.toss-container {
+  background-color: #ffffff;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .toss-container {
+    width: 60%;
+  }
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #a35200;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 32px;
+  }
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #334155;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 22px;
+  }
+}
+
+.image {
+  height: 80px;
+  width: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+.toss-button {
+  border-radius: 12px;
+  background-color: #e2a139;
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 12px;
+  border-style: none;
+  height: 80px;
+  width: 80px;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .result-container {
+    flex-direction: row;
+  }
+}
+
+.result-description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #334155;
+  font-weight: 500;
+  margin: 20px;
+}
